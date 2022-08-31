@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 int main(){
     int n;
-    scanf("%d",&n);
+    cin>>n;
 
     for (int i = 1; i<=n; i++){
         for (int j = 1; j<=i; j++){
-            printf("%d ",i);
+            cout<<i<<" ";
         }
-        printf("\n");
+        cout<<endl;
     }
 }
